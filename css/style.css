@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+
+display: flex;
+width: 100%;
+position: sticky;
+top:0;
+background-color: white;
+border-bottom: 15px solid rgb(36, 31, 33);
+}
+h1{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: xxx-large;   
+    height: 77px;
+    
+}
+
+.menu_navbar{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    align-items:center;
+    justify-content: end;
+    gap: 50px;
+    
+    
+}
+
+.menu_navbar li {
+    padding: 0px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: large;
+    margin: 10px;
+
+}
+.menu_navbar li a{
+    color: black;
+    
+}
+.menu_navbar li a:hover{
+    color: rgba(255,23,82,1);   
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar div img{
+    width: 400px;
+    height: 80px;
+   
+  
+}
+
+.lineanegra{
+    color: rgb(36, 31, 33);
+    background-color: rgb(36, 31, 33);
+    height: 30px;
+}
+
+.imagen_principal{
+    display: flex;
+    background-image: url(../imagenes/Frente.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.imagen_principal h2{
+    color: white;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+    justify-content:center;
+    align-items: center;
+    margin:15px;
+    padding: 15px;
+    padding-inline: 200px;
+    border-radius: 10px;
+    transition: transform 0.35s;
+    
+}
+.imagen_principal h2:hover{
+    transform: scale(1.01);
+
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(36, 31, 33);
+    flex-direction: column;
+    
+}
+.imageness img{
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+}
+.imageness{
+    padding: 10px;
+}
+.listas_footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.listas_footer ul{
+
+}
+.logo_imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_imagenes h3 {
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    font-size: xxx-large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgba(0,168,243,1); 
+}
+
+.lista_footer{
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+    margin-inline: 15px;
+    font-size: larger;
+    
+    
+}
+
+.mapa{
+    display: flex;
+    margin-top: 50px;
+}
+.mapa h4{
+    font-size: xxx-large;
+}
+.mapa h5{
+    margin-top: 50px;
+    font-size: xxx-large;
+    color: red;
+}
+
+.texto_mapa{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.calle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+.musculacion{
+    margin-top: 20px;
+    display: flex;
+}
+.musculacion_imagen{
+    padding: 10px;
+}
+.container_musculacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.texto_musculacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texto_musculacion h2{
+    font-size: xxx-large;
+    align-self: center;
+    font-weight: normal;
+}
+.lorem_musculaciom{
+    padding: 10px;
+    
+}
+.boton_actividades{
+    font-size: xx-large;
+    border: 1px solid black;
+    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+    align-self: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: transform 0.35s;
+    
+}
+.boton_actividades:hover{
+    transform: scale(1.01);
+
+}
+    
+    
+.kickboxing{
+    display: flex;
+    margin-top: 100px;
+}
+.kickboxing_imagen{
+    padding: 10px;
+    
+    
+    align-self: flex-end;
+}
+.texto_kickboxing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texto_kickboxing h2{
+    font-size: xxx-large;
+    align-self: center;
+    font-weight: normal;
+}
+.lorem_kickboxing{
+    padding: 10px;
+}
+.telas{
+    margin-top: 50px;
+    display: flex;
+}
+.telas_imagen{
+    padding: 10px;
+    width: 700px;
+    height: 650px;
+}
+.texto_telas{
+    display: flex;
+    flex-direction: column;
+    
+}
+.texto_telas h2{
+    font-size: xxx-large;
+    align-self: center;
+    font-weight: normal;
+}
+.lorem_telas{
+    padding: 10px;
+}
+
+.nosotros{
+    display: flex;
+    padding: 50px;
+    padding-top: 20px;
+    padding-left: 0px;
+
+}
+
+.nosotros img{
+    height: 500px;
+   
+}
+.nosotros div{
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.bienvenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xxx-large;
+
+}
+.bienvenido_1{
+    color: red;
+    
+}
+
+
+.boton_continuar{
+    display: flex;
+    justify-content: center;
+}
+
+.continuar{
+    border: 1px solid black;
+    color: white;
+    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+    display: flex;
+    padding: 10px;
+    padding-inline: 30px;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    transition: transform 0.35s;
+    
+}
+.continuar:hover{
+    transform: scale(1.01);
+
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    align-items: center;
+}
+
+.form_email{
+    
+    width: 650px;
+    height: 30px;   
+    
+}
+.form_texto{
+    width: 800px;
+}
+
+.form_datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+.form_email2{
+    margin-left: -80px;
+}
+.form_telefono{
+    margin-left: -88px;
+}
+
+.input{
+    height: 35px;
+    width: 500px;
+}
+
+.imagen_Inscripcion{
+    display: flex;
+
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "musculacion_imagen texto_musculacion"
+    "texto_kickboxing kickboxing_imagen"
+    "telas_imagen texto_telas"
+    /* "musculacion_imagen musculacion_imagen musculacion_imagen musculacion_imagen texto_musculacion texto_musculacion"
+    "texto_kickboxing texto_kickboxing texto_kickboxing kickboxing_imagen kickboxing_imagen kickboxing_imagen"
+
+    "telas_imagen telas_imagen telas_imagen telas_imagen texto_telas texto_telas"
+
+    ; */
+
+}
+.musculacion_imagen{
+    grid-area: musculacion_imagen;
+    width: 100%;
+}
+.texto_musculacion{
+    grid-area: texto_musculacion;
+
+}
+.texto_kickboxing{
+    grid-area: texto_kickboxing;
+}
+.kickboxing_imagen{
+    grid-area: kickboxing_imagen;
+    width: 100%;
+}
+.telas_imagen{
+    grid-area: telas_imagen;
+    width: 100%;
+}
+.texto_telas{
+    grid-area: texto_telas;
+}
+
