@@ -91,7 +91,7 @@ h1{
     padding: 15px;
     padding-inline: 200px;
     border-radius: 10px;
-    transition: transform 0.35s;
+    transition: transform 0.15s;
     
 }
 .imagen_principal h2:hover{
@@ -219,7 +219,7 @@ footer a:hover{
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
-    transition: transform 0.35s;
+    transition: transform 0.15s;
     
 }
 .boton_actividades:hover{
@@ -323,7 +323,7 @@ footer a:hover{
     margin-top: 20px;
     margin-bottom: 35px;
     border-radius: 10px;
-    transition: transform 0.35s;
+    transition: transform 0.15s;
     
 }
 .continuar:hover{
