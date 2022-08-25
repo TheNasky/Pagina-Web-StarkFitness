@@ -13,7 +13,7 @@ width: 100%;
 position: sticky;
 top:0;
 background-color: white;
-border-bottom: 15px solid rgb(36, 31, 33);
+/* border-bottom: 15px solid rgb(36, 31, 33); */
 }
 h1{
     padding: 0px;
@@ -119,10 +119,6 @@ footer{
     display: flex;
     flex-direction: row;
     width: 100%;
-    
-}
-.listas_footer ul{
-
 }
 .logo_imagenes{
     display: flex;
@@ -412,3 +408,29 @@ footer a:hover{
     grid-area: texto_telas;
 }
 
+.navbar-brand{
+    font-size: xx-large;
+    
+}
+
+.hero{
+    background-image: url(../imagenes/hero.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.calle h4{
+    font-size: xxx-large;
+}
+.calle h5{
+    margin-top: 50px;
+    font-size: xxx-large;
+    color: red;
+}
+
+.logo_footer{
+    
+}
