@@ -475,3 +475,11 @@ a:hover{
 .logo_footer{
     max-width: 100%;
 }
+
+
+
+@media (max-width: 768px) {
+    .coluna{
+        order: -1;
+    }
+  }
