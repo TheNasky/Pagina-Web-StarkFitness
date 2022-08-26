@@ -10,12 +10,13 @@
 header{
 
 display: flex;
-width: 100%;
+max-width: 100%;
 position: sticky;
 top:0;
 background-color: white;
 /* border-bottom: 15px solid rgb(36, 31, 33); */
 z-index: 1
+
 }
 h1{
     padding: 0px;
@@ -468,4 +469,8 @@ a:hover{
 .boton_actividades2:hover{
     transform: scale(1.01);
 
+}
+
+.logo_footer{
+    max-width: 100%;
 }
