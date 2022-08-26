@@ -15,6 +15,7 @@ position: sticky;
 top:0;
 background-color: white;
 /* border-bottom: 15px solid rgb(36, 31, 33); */
+z-index: 1
 }
 h1{
     padding: 0px;
