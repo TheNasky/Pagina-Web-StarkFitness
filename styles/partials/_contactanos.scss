@@ -6,7 +6,7 @@
 .continuar{
     border: 1px solid black;
     color: white;
-    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+    background: $colorBotones;
     display: flex;
     padding: 10px;
     padding-inline: 30px;
