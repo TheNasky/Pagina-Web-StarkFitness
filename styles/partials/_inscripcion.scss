@@ -1,0 +1,11 @@
+.bienvenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xxx-large;
+    max-width: 100%;
+    div:first-child{
+        color: red;
+    }
+    
+}

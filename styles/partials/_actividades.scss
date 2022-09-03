@@ -1,0 +1,121 @@
+.imagen_musculacion{
+    width: 100%;
+}
+.texto_musculacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2{
+        font-size: xxx-large;
+        align-self: center;
+        font-weight: normal;
+    }
+    .container_musculacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        .lorem_telas{
+            padding: 10px;
+        }
+    }
+    .boton_actividades{
+        font-size: xx-large;
+        border: 1px solid black;
+        background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+        align-self: center;
+        color: white;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        transition: transform 0.15s;
+        &:hover{
+            transform: scale(1.01);
+        }
+        
+    }
+    
+}
+.imagen_kickboxing{
+    width: 100%;
+}
+
+.texto_kickboxing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .container_musculacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        h2{
+            font-size: xxx-large;
+            align-self: center;
+            font-weight: normal;
+        }
+        .lorem_kickboxing{
+            padding: 10px;
+        }
+    }
+    .boton_actividades{
+        font-size: xx-large;
+        border: 1px solid black;
+        background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+        align-self: center;
+        color: white;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        transition: transform 0.15s;
+        &:hover{
+            transform: scale(1.01);
+        }
+        
+    }
+}
+
+.imagen_telas{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.texto_telas{
+    display: flex;
+    flex-direction: column;
+    
+    .container_musculacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        h2{
+            font-size: xxx-large;
+            align-self: center;
+            font-weight: normal;
+        }
+        .lorem_kickboxing{
+            padding: 10px;
+        }
+    }
+    .boton_actividades{
+        font-size: xx-large;
+        border: 1px solid black;
+        background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+        align-self: center;
+        color: white;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        transition: transform 0.15s;
+        &:hover{
+            transform: scale(1.01);
+        }
+        
+    }
+}
+@media (max-width: 768px) {
+    .coluna{
+        order: -1;
+    }
+  }

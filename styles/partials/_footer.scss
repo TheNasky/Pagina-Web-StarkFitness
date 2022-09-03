@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(36, 31, 33);
+    flex-direction: column;
+    .lista_footer{
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+        margin-inline: 15px;
+        font-size: larger;
+        
+        
+    }
+    .logo_footer{
+        max-width: 100%;
+    }
+    a:hover{
+        color: rgba(0,168,243,1); 
+    }
+    .imageness{
+        padding: 10px;
+        img{
+            width: 75px;
+            height: 75px;
+            padding: 20px;
+        }
+    }
+    
+}
+
+

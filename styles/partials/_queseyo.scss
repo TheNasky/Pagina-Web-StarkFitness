@@ -1,0 +1,33 @@
+a:hover{
+    color: white;
+}
+
+.botonaso{
+    font-size: xx-large;
+    border: 1px solid black;
+    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
+    align-self: end;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: transform 0.15s;
+    
+    
+}
+.botonaso:hover{
+    transform: scale(1.01);
+
+}
+
+.logo_footer{
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .coluna{
+        order: -1;
+    }
+  }

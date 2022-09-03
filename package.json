@@ -1,0 +1,25 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheNasky/Pagina-Web-StarkFitness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheNasky/Pagina-Web-StarkFitness/issues"
+  },
+  "homepage": "https://github.com/TheNasky/Pagina-Web-StarkFitness#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

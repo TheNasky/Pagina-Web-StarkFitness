@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stark Fitness</title>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/Style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(36, 31, 33)">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../imagenes/Logo_footer-removebg-preview.png" alt=""></a>
+              <a class="navbar-brand" href="../index.html"><img style="max-width:100%;" src="../imagenes/Logo2.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../pages/actividades.html">Actividades</a>
@@ -30,7 +30,7 @@
                     <a class="nav-link" href="../pages/conocenos.html">Conocenos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                    <a class="nav-link active" aria-current="page"  href="../pages/contactanos.html">Contactanos</a>
                   </li>
                 </ul>
               </div>
@@ -38,28 +38,72 @@
           </nav>
     </header>
     <main>
-        
-        <section>
-                <form class="formm">
-                    <label for="email" >
-                        Dirección De E-mail
-                        <input type="email" class="form_email" id="email" required>
-                    </label>
-                    <textarea name="texto_formulario" class="form_texto" id="" cols="50" rows="14"></textarea required>
-                    <button class="continuar" type="submit">Enviar</button>
-                </form>
-            </div>
-        </section>
+      
+  <section class="mb-4">
+
+ 
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos</h2>
+  
+    <p class="text-center w-responsive mx-auto mb-5">Ante cualquier duda o consulta, porfavor, no dudes en escribirnos y nosotros nos pondremos en contacto!</p>
+
+    <div class="row">
+
+     
+        <div class="col-md-12 mb-md-0 mb-5 p-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              
+                <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Nombre y Apellido</label>
+                      </div>
+                    </div>
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="email" name="email" class="form-control">
+                      <label for="email" class="">Dirección de Email</label>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Asunto</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Tu Mensaje</label>
+                      </div>
+                  </div>
+              </div>
+          </form>
+
+          <div class="text-center text-md-left ">
+              <a class="continuar" href="./contactanos.html">Enviar</a>
+          </div>
+          <div class="status"></div>
+        </div>
+    </div>
+
+  </section>
+
     </main>
    <footer  class="mt-3">
         <section class="container-fluid">
           <div class="row">
-            <div class="col-md-8"><img class="logo_footer" src="../imagenes/Logo_footer-removebg-preview.png" alt=""></div>
+            <div class="col-md-8"><img class="logo_footer" style="max-width:100%;" src="../imagenes/LogoFooter2.png" alt=""></div>
             <div class="col-md-4"><div class="imageness">
               <img src="../imagenes/Whatsapp.png" alt="Whatsapp icon">
-              <a href="https://www.facebook.com" target="blank" ><img src="./imagenes/Facebook.png" alt="Facebook icon"></a>
-              <a href="https://www.instagram.com" target="blank" ><img src="./imagenes/Instagram.png" alt="Instagram icon"></a>
-              <a href="https://www.linkedin.com" target="blank" ><img src="./imagenes/linkedin.png" alt="linkedin icon"></a>
+              <a href="https://www.facebook.com" target="blank" ><img src="../imagenes/Facebook.png" alt="Facebook icon"></a>
+              <a href="https://www.instagram.com" target="blank" ><img src="../imagenes/Instagram.png" alt="Instagram icon"></a>
+              <a href="https://www.linkedin.com" target="blank" ><img src="../imagenes/linkedin.png" alt="linkedin icon"></a>
               <img src="../imagenes/TikTok.png" alt="TikTok icon">
             </div>
           </div>

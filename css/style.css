@@ -18,7 +18,7 @@ background-color: white;
 z-index: 1
 
 }
-h1{
+/* h1{
     padding: 0px;
     display: flex;
     align-items: center;
@@ -26,8 +26,8 @@ h1{
     font-size: xxx-large;   
     height: 77px;
     
-}
-
+} */
+/* 
 .menu_navbar{
     display: flex;
     list-style-type: none;
@@ -54,26 +54,26 @@ h1{
 }
 .menu_navbar li a:hover{
     color: rgba(255,23,82,1);   
-}
+} */
 .navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.navbar div img{
+/* .navbar div img{
     width: 400px;
     height: 80px;
    
   
-}
+} */
 
-.lineanegra{
+/* .lineanegra{
     color: rgb(36, 31, 33);
     background-color: rgb(36, 31, 33);
     height: 30px;
-}
+} */
 
-.imagen_principal{
+/* .imagen_principal{
     display: flex;
     background-image: url(../imagenes/Frente.jpg);
     height: 90vh;
@@ -100,7 +100,7 @@ h1{
 .imagen_principal h2:hover{
     transform: scale(1.01);
 
-}
+} */
 
 
 footer{
@@ -118,7 +118,7 @@ footer{
 .imageness{
     padding: 10px;
 }
-.listas_footer{
+/* .listas_footer{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -126,7 +126,7 @@ footer{
 .logo_imagenes{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .logo_imagenes h3 {
     padding: 10px;
@@ -155,7 +155,7 @@ footer a:hover{
     
 }
 
-.mapa{
+/* .mapa{
     display: flex;
     margin-top: 50px;
 }
@@ -166,7 +166,7 @@ footer a:hover{
     margin-top: 50px;
     font-size: xxx-large;
     color: red;
-}
+} */
 
 .texto_mapa{
     display: flex;
@@ -181,13 +181,13 @@ footer a:hover{
     
 }
 
-.musculacion{
+/* .musculacion{
     margin-top: 20px;
     display: flex;
-}
-.musculacion_imagen{
+} */
+/* .musculacion_imagen{
     padding: 10px;
-}
+} */
 .container_musculacion{
     display: flex;
     flex-direction: column;
@@ -273,19 +273,12 @@ footer a:hover{
     padding: 10px;
 }
 
-.nosotros{
-    display: flex;
-    padding: 50px;
-    padding-top: 20px;
-    padding-left: 0px;
 
-}
 
-.nosotros img{
-    height: 500px;
-   
+.nosotros_imagen{
+    width: 100%;
 }
-.nosotros div{
+.nosotros_texto{
     font-size: larger;
     justify-content: center;
     align-items: center;
@@ -298,11 +291,11 @@ footer a:hover{
     flex-direction: column;
     align-items: center;
     font-size: xxx-large;
-
-}
-.bienvenido_1{
-    color: red;
+    max-width: 100%;
     
+}
+.bienvenido div:first-child{
+    color: red;
 }
 
 
@@ -451,35 +444,3 @@ footer a:hover{
     margin-bottom: 10px;
 }
 
-a:hover{
-    color: white;
-}
-
-.boton_actividades2{
-    font-size: xx-large;
-    border: 1px solid black;
-    background: linear-gradient(135deg, rgba(255,46,0,1) 0%, rgba(255,23,82,1) 51%, rgba(255,11,94,1) 83%, rgba(255,0,95,1) 100%);
-    align-self: end;
-    color: white;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    transition: transform 0.15s;
-    
-}
-.boton_actividades2:hover{
-    transform: scale(1.01);
-
-}
-
-.logo_footer{
-    max-width: 100%;
-}
-
-
-
-@media (max-width: 768px) {
-    .coluna{
-        order: -1;
-    }
-  }
