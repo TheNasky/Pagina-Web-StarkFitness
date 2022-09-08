@@ -1,0 +1,18 @@
+// Sass2:
+
+$map3px: (
+    padding: 3px,
+    margin: 3px,
+    border-radius: 3px
+);
+
+.botonasoloco{
+    @extend .botonaso;
+    border: 3px solid green;
+    color: purple;
+}
+
+@mixin tamaneos ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
