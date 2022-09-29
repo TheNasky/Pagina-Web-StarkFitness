@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
     h2{
         font-size: xxx-large;
         align-self: center;
@@ -44,6 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
     .container_musculacion{
         display: flex;
         flex-direction: column;
@@ -83,6 +85,7 @@
 .texto_telas{
     display: flex;
     flex-direction: column;
+    height: 100%;
     
     .container_musculacion{
         display: flex;
@@ -121,5 +124,14 @@
 @media (max-width: 768px) {
     .coluna{
         order: -1;
+    }
+    .texto_kickboxing{
+        text-align: center;
+    }
+    .texto_musculacion{
+        text-align: center;
+    }
+    .texto_telas{
+        text-align: center;
     }
   }

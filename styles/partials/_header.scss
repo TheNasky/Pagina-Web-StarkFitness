@@ -23,3 +23,9 @@ header{
     font-size: xx-large;
     
 }
+
+@media (max-width: 768px) {
+    .navbar-brand{
+        max-width: 65%;
+    }
+  }
